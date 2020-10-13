@@ -1,0 +1,166 @@
+body {
+		margin: 2;
+		font-family: arial;
+		font-size: 18px;
+		color: black;
+		text-align: center;
+		overflow: auto;
+		}
+	img {
+		max-width: 100%;
+	}
+	#call{
+		width: 100%;
+		background-color: #12389E;
+		height: auto;
+		overflow: hidden;
+	}
+	#call p{
+		text-align: right;
+		color: #fff;
+		font-size: 14px;
+		padding-right: 5%;
+	}
+	#call p a{
+		color: #fff;
+		text-decoration: none;
+	}
+	header {
+		padding: 2% 0;
+	}
+	nav ul{
+		list-style: none;
+		margin: 0;
+		padding-left: 50px;
+	}
+	nav ul li{
+		float: left;
+		width: 19%; 
+	}
+	nav ul li a{
+		font-weight: 700;
+		text-decoration: none;
+		color: #444;
+		display: block;
+		padding: 5% 12%;
+	}
+	nav ul li a:hover, nav ul li.active a{
+		background-color: #12389E;
+		color: #FDF60A;
+	}
+	
+	
+	.left-col{
+		width: 55%;
+		float: left;
+		padding: 1%;
+		background-color: #AAE0EE;
+		font-size: 19.5px;
+		padding-bottom: 1.5%;
+	}
+	.right-col{
+		width: 40%;
+		float: right;
+		padding: 1%;
+	}
+	.one-third{
+		width: 29%;
+		float: left;
+		padding: 2%;
+	}
+	.Partition1{
+		width: 29%;
+		float: left;
+		padding: 2%;
+		background-color:  #ffff80;
+		padding-bottom: 3.3%;
+		padding-top: 0%
+	}
+	.Partition2{
+		width: 29%;
+		float: left;
+		padding: 2%;
+		background-color: #ffff00;
+		padding-bottom: 1.7%;
+		padding-top: 0%;
+		}
+	.Partition3{
+		width: 30%;
+		float: left;
+		padding: 2%;
+		background-color:  #ffff80;
+		padding-bottom: 0%;
+		padding-top: 0%;
+	}
+	.clearfix{
+		clear: both;
+	}
+	footer{
+		background: #12389E;
+		width: 100%;
+		padding: 6% 0% 10%;
+	}
+	.social{
+		font-size: 400%;
+		background-color: #12389E;
+	}
+	.social a{
+		color: #fff;
+		padding: 3%;
+	}
+	.social a:hover{
+		color: #FDF60A;
+	}
+	
+	@media (max-width: 768px)
+	{ 
+	nav ul{
+	padding-left: 0;
+	}
+	nav ul li{
+	width: 100%;
+	border-left: 0;
+	border-right: 0;
+	}
+	nav ul li a{
+	padding: 8px 0;
+	font-size: 16px;
+	}
+	.left-col{
+	width: 100%;
+	padding: 0;
+	font-size: 16px;
+	}
+	.right-col{
+	width: 100%;
+	padding: 0;
+	}
+	.Partition1{
+	width: 100%;
+	padding: 0%;
+	font-size: 15px;
+	padding-bottom: 3.3%;
+	}
+	.Partition2{
+	width: 100%;
+	padding: 0%;
+	font-size: 15px;
+	padding-bottom: 1.7%; }
+	.Partition3{
+	width: 100%;
+	padding: 0%;
+	font-size: 15px;}
+	
+	.one-third{
+	width: 100%;
+	padding: 0%;
+	}
+	.social{
+	font-size: 200%;
+	background-color: #12389E;
+	color: #FDF60A;
+	}
+	p{
+	font-size: 16px;
+	}
+}
